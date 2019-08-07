@@ -17,6 +17,7 @@ The basic functions implemented are:
 - login, getting back an authentication "token" that can be used with Amazon Cognito to assume an Authenticated Role via Developer Authenticated Identities
 - password change
 - password reset, an email is sent with a link to reset the password
+lol
 
 Passwords are not saved in clear in the database, but "salted" (via [HMAC-SHA1](http://en.wikipedia.org/wiki/Hash-based_message_authentication_code)) using a dedicated, random salt for each password.
 
